@@ -645,19 +645,21 @@ footer div.container p a:last-child i {
 /*==================================
 =            MediaQuery            =
 ==================================*/
+@media (max-width: 1000px) {
+	.approch div.container div.item div.step {
+		display: none;
+	}
+}
 @media (max-width: 768px) {
 	.navbar div.container div.collapse ul.navbar-right li button {
 		display: none;
 	}
 	.navbar div.container div.collapse ul.navbar-right li:nth-child(4) a:after {
-	content: ".";
-	display: inline-block;
-	margin-left: 10px;
-	font-weight: 900;
-	color: #000;
-}
-	.approch div.container div.item div.step {
-		display: none;
+		content: ".";
+		display: inline-block;
+		margin-left: 10px;
+		font-weight: 900;
+		color: #000;
 	}
 	.approch div.container div.item div.text {
 		padding: 20px 5px;
