@@ -623,15 +623,21 @@ footer div.container p {
 }
 footer div.container p a {
 	text-decoration: none;
+	color: #fff;
 }
 footer div.container p a i {
-	font-size: 18px;
+	font-size: 12px;
+	line-height: 18px;
+	width: 20px;
+	height: 20px;
+	border: 1px solid transparent;
+	border-radius: 50%;
 }
 footer div.container p a:first-child i {
-	color: #3b5998;
+	background-color: #3b5998;
 }
 footer div.container p a:last-child i {
-	color: #00a0dc;
+	background-color: #00a0dc;
 }
 /*=====  End of Footer  ======*/
 
