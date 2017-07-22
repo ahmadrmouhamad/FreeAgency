@@ -543,10 +543,6 @@ header div.container button a {
 	font-weight: 600;
 	margin-top: 30px;
 }
-.analysis div.container div.popup div.form form button.btn a {
-	text-decoration: none;
-	color: #fff;
-}
 /*=====  End of Analysis Section  ======*/
 
 
@@ -674,6 +670,9 @@ footer div.container p a:last-child i {
 	.work div.container div.project {
 		margin-bottom: 30px;
 	}
+	.analysis div.container div.popup div.form form button.btn {
+		width: 100%;
+	}
 }
 @media (max-width: 640px) {
 	.navbar div.container div.collapse ul.navbar-right li a:after,
@@ -702,11 +701,17 @@ footer div.container p a:last-child i {
 	}
 }
 @media (max-width: 320px) {
+	.infobar ul li {
+		padding: 0;
+	}
 	header div.container p {
 		font-size: 18px
 	}
 	header div.container p span {
 		font-size: 35px;
+	}
+	footer div.container p {
+		font-size: 12px;
 	}
 }
 /*=====  End of MediaQuery  ======*/
